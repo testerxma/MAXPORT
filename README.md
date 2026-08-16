@@ -4,7 +4,7 @@
 this computer right now?** Then shows the evidence, and gives you the means
 to cut the connection.
 
-[![tests](https://github.com/YOUR-USERNAME/maxport/actions/workflows/tests.yml/badge.svg)](https://github.com/YOUR-USERNAME/maxport/actions/workflows/tests.yml)
+[![tests](https://github.com/YOUR-USERNAME/maxport/actions/workflows/tests.yml/badge.svg)](https://github.com/testerxma/maxport/actions/workflows/tests.yml)
 [![licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20Linux-lightgrey.svg)](#running-it)
