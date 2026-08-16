@@ -211,10 +211,6 @@ deliberately excluded.
 | `cmdline.py` | Terminal and structured output |
 | `ui/` | Qt interface |
 
-## Security
-
-Please report vulnerabilities privately — see [SECURITY.md](SECURITY.md).
-
 ## Licence
 
 MIT — see [LICENSE](LICENSE).
