@@ -6,7 +6,7 @@ few things; the rest is open.
 ## Getting set up
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/maxport
+git clone https://github.com/testerxma/maxport
 cd maxport/src
 pip install psutil PySide6-Essentials
 python3 tests/test_regressions.py        # or: python -m pytest tests/ -q
@@ -94,10 +94,6 @@ and cannot do.
   compromised, has built the problem it exists to find.
 - Exposing isolation to an automated caller. Cutting the network removes the
   channel the caller would use to observe the result.
-- Anything that deletes rather than blocks, disables or quarantines.
-  Evidence may be needed later.
+- Anything that deletes rather than blocks, disables or quarantines. Evidence may be needed later.
 - Silent `except: pass` around a check.
 
-## Reporting a security problem in MaxPort itself
-
-See [SECURITY.md](SECURITY.md). Please do not open a public issue.
