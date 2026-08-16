@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maxport"
+version = "2.0.0"
+description = "Detects remote control, backdoors and exposure on the machine it runs on"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = ["psutil>=5.9"]
+
+[project.optional-dependencies]
+gui = ["PySide6-Essentials>=6.6"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+maxport = "maxport.ui.app:main"
+
+[tool.setuptools.packages.find]
+include = ["maxport*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
